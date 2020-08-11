@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Tutorias</title>
+    
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f397408f7a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script lang="JavaScript" type="text/javascript" src="sesiones.js"></script>
+    <style>
+        body {
+            background: #95a5a6;
+        }
+
+        ul li :hover {
+            background-color: #18BC9C;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="container-fluid">
+
+    <div class="row justify-content-center align-items-center mt-5">
+        <div class="card bg-light mb-3" style="max-width: 40rem;">
+            <div class="card-header text-center">
+                <div class="row justify-content-center align-items-center">
+                    <img class="img-fluid mr-3" src="../image/tnm.png" alt="Logo tnm" width="82" height="40">
+                    <h4 class="card-title">Instituto Tecnológico de Ciudad Guzmán</h4>
+                    <img class="img-fluid ml-3" src="../image/itcg.png" alt="Logo itcg" width="34" height="40">
+                </div>
+            </div>
+            <form action="" method="post" id="admin">
+                <div class="card-body">
+                    <p class="card-text text-center">Bienvenido al Sistema de Tutorias, por favor selecciona la opción
+                        de
+                        acuerdo a tus actividades.</p>
+                    <div class="col-12">
+                        <ul class="nav nav-pills justify-content-center">
+                            <li class="nav-item mx-1">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link btn-success" href="administrativo.html">Personal del Instituto</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link" href="#Alumno">Alumno</a>
+                            </li>
+                            <!--<li class="nav-item mx-1">
+                                <a class="nav-link" href="#Topota">Topota</a>
+                            </li>-->
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 offset-1 mt-3">
+                            <div class="form-group">
+                                <label class="text-dark">Nombre de usuario</label>
+                                <input type="text" class="form-control" id="Usuario">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-dark">Contraseña</label>
+                                <input type="password" class="form-control" id="Password">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-right">
+                    <button type="submit" class="btn btn-success" id="acceder">
+                        <i class="fa fa-sign-in"></i>
+                        Acceder
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
